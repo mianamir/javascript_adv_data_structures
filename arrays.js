@@ -1,5 +1,11 @@
 var cars = ["Saab", "Volvo", "BMW"];
 
+names.findIndex(el => el === 'Volvo');
+
+for (const el of cars){
+  console.log(el);
+}
+
 var cars = new Array("Saab", "Volvo", "BMW");
 
 var name = cars[0];
